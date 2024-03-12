@@ -1,18 +1,18 @@
 export interface GetGroupsResponse {
-  result: 1 | 0,
-  data?: Group[]
+  result: 1 | 0;
+  data?: IGroup[];
 }
 
-export interface Group {
-  "id": number,
-  "name": string,
-  "closed": boolean,
-  "avatar_color"?: string,
-  "members_count": number,
-  "friends"?: User[]
+export interface IGroup {
+  id: number;
+  name: string;
+  closed: boolean;
+  avatar_color?: string;
+  members_count: number;
+  friends?: User[];
 }
 
 interface User {
-  "first_name": string,
-  "last_name": string
+  first_name: string;
+  last_name: string;
 }
