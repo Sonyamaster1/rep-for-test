@@ -3,7 +3,7 @@ export interface GetGroupsResponse {
   data?: Group[]
 }
 
-interface Group {
+export interface Group {
   "id": number,
   "name": string,
   "closed": boolean,
