@@ -8,6 +8,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.friends {
+  cursor: pointer;
+}
+.friends:hover {
+  opacity: .8;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cell {
+  border: 1px solid black;
+}
 
 a {
   font-weight: 500;
